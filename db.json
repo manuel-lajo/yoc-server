@@ -1,25 +1,25 @@
 {
   "cases": [
   {
-    id: 1,
-    iconSource: CaseCIcon,
-    day: 'today',
-    number: 1234567,
-    status: 'Clarification',
-    patient: 'Mike Nickels',
-    coach: 'Dr. Smithwitck',
-    count: 3,
+    "id": 1,
+    "iconSource": CaseCIcon,
+    "day": "today",
+    "number": 1234567,
+    "status": "Clarification",
+    "patient": "Mike Nickels",
+    "coach": "Dr. Smithwitck",
+    "count": 3,
   },
   {
-    id: 2,
-    iconSource: CaseSIcon,
-    day: 'yesterday',
-    number: 1234567,
-    status: 'Modification',
-    patient: 'Mike Nickels',
-    coach: 'Dr. Smithwitck',
-    count: 3,
-  },
+    "id": 2,
+    "iconSource": CaseCIcon,
+    "day": "yesterday",
+    "number": 1234567,
+    "status": "Modification",
+    "patient": "Mike Nickels",
+    "coach": "Dr. Smithwitck",
+    "count": 3,
+  }
 ],
   "profile": {
     "name": "typicode"
