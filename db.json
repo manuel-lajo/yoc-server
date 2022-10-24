@@ -2,7 +2,7 @@
   "cases": [
   {
     "id": 1,
-    "iconSource": CaseCIcon,
+    "type": 1,
     "day": "today",
     "number": 1234567,
     "status": "Clarification",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "iconSource": CaseCIcon,
+    "type": 2,
     "day": "yesterday",
     "number": 1234567,
     "status": "Modification",
