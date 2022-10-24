@@ -1,27 +1,27 @@
 {
-   "cases":[
-      {
-         "id":1,
-         "type":1,
-         "day":"today",
-         "number":1234567,
-         "status":"Clarification",
-         "patient":"Mike Nickels",
-         "coach":"Dr. Smithwitck",
-         "count":3
-      },
-      {
-         "id":2,
-         "type":2,
-         "day":"yesterday",
-         "number":1234567,
-         "status":"Modification",
-         "patient":"Mike Nickels",
-         "coach":"Dr. Smithwitck",
-         "count":3
-      }
-   ],
-   "profile":{
-      "name":"typicode"
-   }
+  "cases":[
+    {
+      "id":1,
+      "type":1,
+      "day":"today",
+      "number":1234567,
+      "status":"Clarification",
+      "patient":"Mike Nickels",
+      "coach":"Dr. Smithwitck",
+      "count":3
+    },
+    {
+      "id":2,
+      "type":2,
+      "day":"yesterday",
+      "number":1234567,
+      "status":"Modification",
+      "patient":"Mike Nickels",
+      "coach":"Dr. Smithwitck",
+      "count":3
+    }
+  ],
+  "profile":{
+    "name":"typicode"
+  }
 }
