@@ -51,6 +51,9 @@
           "count": 3
         }
       ]
+    },
+    "numberOfOpenCases": {
+      "count": 3
     }
   },
   "UserAPI": {
