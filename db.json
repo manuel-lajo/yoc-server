@@ -32,7 +32,7 @@
           "coachid": 1,
           "openedby": 2,
           "newApi": true,
-          "coachName": "Dr. Smithwitck",
+          "coachName_old": "Dr. Smithwitck",
           "status": "Clarification",
           "day":"today",
           "count":3
@@ -45,7 +45,7 @@
           "coachid": 1,
           "openedby": 2,
           "newApi": true,
-          "coachName": "Dr. Smithwitck",
+          "coachName_old": "Dr. Smithwitck",
           "status": "Modification",
           "day":"yesterday",
           "count":3
