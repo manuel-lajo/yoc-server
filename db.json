@@ -1,5 +1,5 @@
 {
-  "cases":[
+  "cases_old":[
     {
       "id":1,
       "type":1,
@@ -21,6 +21,32 @@
       "count":3
     }
   ],
+  "cases": {
+    "updateCases": [
+      {
+        "id": 1234567,
+        "patientname": "Mike Nickels",
+        "conversationid": 123,
+        "openedat": "01/15/2022",
+        "newApi": true,
+        "coachName": "Dr. Smithwitck",
+        "status": "Clarification",
+        "day":"today",
+        "count":3
+      }
+      {
+        "id": 987654,
+        "patientname": "Mike Nickels",
+        "conversationid": 234,
+        "openedat": "01/17/2022",
+        "newApi": true,
+        "coachName": "Dr. Smithwitck",
+        "status": "Modification",
+        "day":"yesterday",
+        "count":3
+      }
+    ]
+  }
   "profile":{
     "name":"typicode"
   }
