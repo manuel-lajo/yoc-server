@@ -34,8 +34,8 @@
           "newApi": true,
           "coachName_old": "Dr. Smithwitck",
           "status": "Clarification",
-          "day":"today",
-          "count":3
+          "day": "today",
+          "count": 3
         },
         {
           "id": 987654,
@@ -47,8 +47,8 @@
           "newApi": true,
           "coachName_old": "Dr. Smithwitck",
           "status": "Modification",
-          "day":"yesterday",
-          "count":3
+          "day": "yesterday",
+          "count": 3
         }
       ]
     }
@@ -58,6 +58,13 @@
       "first_name": "John",
       "last_name": "Smithwitck"
     }
+  },
+  "CreditAPI": {
+    "creditData": [
+      {
+        "balance": 1500
+      }
+    ]
   },
   "profile": {
     "name":"typicode"
