@@ -29,6 +29,8 @@
           "patientname": "Mike Nickels",
           "conversationid": 123,
           "openedat": "01/15/2022",
+          "coachid": 1,
+          "openedby": 2,
           "newApi": true,
           "coachName": "Dr. Smithwitck",
           "status": "Clarification",
@@ -40,6 +42,8 @@
           "patientname": "Mike Nickels",
           "conversationid": 234,
           "openedat": "01/17/2022",
+          "coachid": 1,
+          "openedby": 2,
           "newApi": true,
           "coachName": "Dr. Smithwitck",
           "status": "Modification",
@@ -49,7 +53,13 @@
       ]
     }
   },
-  "profile":{
+  "UserAPI": {
+    "profile": {
+      "first_name": "John",
+      "last_name": "Smithwitck"
+    }
+  },
+  "profile": {
     "name":"typicode"
   }
 }
