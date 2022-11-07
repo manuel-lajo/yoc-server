@@ -56,6 +56,28 @@
       "count": 3
     }
   },
+  "NotificationAPI": {
+    "notifications": [
+      {
+        "id": 1,
+        "imageUrl": "calendar",
+        "text": "You have a live meeting scheduled tomorrow.",
+        "dayRecieved": "today"
+      },
+      {
+        "id": 2,
+        "imageUrl": "message",
+        "text": "You have a new message from Kim Thomas",
+        "dayRecieved": "yesterday"
+      },
+      {
+        "id": 3,
+        "imageUrl": "webinar",
+        "text": "A new webinar is available, title of the webinar.",
+        "dayRecieved": "2 days ago"
+      }
+    ]
+  },
   "UserAPI": {
     "profile": {
       "first_name": "John",
