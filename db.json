@@ -1,26 +1,4 @@
 {
-  "cases_old":[
-    {
-      "id":1,
-      "type":1,
-      "day":"today",
-      "number":1234567,
-      "status":"Clarification",
-      "patient":"Mike Nickels",
-      "coach":"Dr. Smithwitck",
-      "count":3
-    },
-    {
-      "id":2,
-      "type":2,
-      "day":"yesterday",
-      "number":1234567,
-      "status":"Modification",
-      "patient":"Mike Nickels",
-      "coach":"Dr. Smithwitck",
-      "count":3
-    }
-  ],
   "CaseAPI": {
     "cases": {
       "updateCases": [
@@ -91,24 +69,76 @@
       }
     ]
   },
-  "testAPIone": {
-    "profile": {
-      "field": "test value"
-    }
-  },
-  "testAPItwo": {
-    "profile": {
-      "field": "test value"
-    }
-  },
-  "testAPIthree": {
-    "profile": {
-      "field": "test value"
-    }
-  },
-  "testAPIfour": {
-    "profile": {
-      "field": "test value"
+  "main": {
+    "CaseAPI": {
+      "cases": {
+        "updateCases": [
+          {
+            "id": 1234567,
+            "patientname": "Mike Nickels",
+            "conversationid": 123,
+            "openedat": "01/15/2022",
+            "coachid": 1,
+            "openedby": 2,
+            "newApi": true,
+            "coachName_old": "Dr. Smithwitck",
+            "status": "Clarification",
+            "day": "today",
+            "count": 3
+          },
+          {
+            "id": 987654,
+            "patientname": "Mike Nickels",
+            "conversationid": 234,
+            "openedat": "01/17/2022",
+            "coachid": 1,
+            "openedby": 2,
+            "newApi": true,
+            "coachName_old": "Dr. Smithwitck",
+            "status": "Modification",
+            "day": "yesterday",
+            "count": 3
+          }
+        ]
+      },
+      "numberOfOpenCases": {
+        "count": 3
+      }
+    },
+    "NotificationAPI": {
+      "notifications": [
+        {
+          "id": 1,
+          "imageUrl": "calendar",
+          "text": "You have a live meeting scheduled tomorrow.",
+          "dayRecieved": "today"
+        },
+        {
+          "id": 2,
+          "imageUrl": "message",
+          "text": "You have a new message from Kim Thomas",
+          "dayRecieved": "yesterday"
+        },
+        {
+          "id": 3,
+          "imageUrl": "webinar",
+          "text": "A new webinar is available, title of the webinar.",
+          "dayRecieved": "2 days ago"
+        }
+      ]
+    },
+    "UserAPI": {
+      "profile": {
+        "first_name": "John",
+        "last_name": "Smithwitck"
+      }
+    },
+    "CreditAPI": {
+      "creditData": [
+        {
+          "balance": 1500
+        }
+      ]
     }
   }
 }
